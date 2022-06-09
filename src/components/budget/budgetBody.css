@@ -1,0 +1,99 @@
+.budget-body {
+     padding:2%;
+}
+
+.text-intro {
+    width: 35%;
+}
+
+.text-intro h1 {
+    color: #4b0090;
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 28px;
+}
+
+.text-intro p {
+    color: #555555;
+    margin: 12px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.budget-entry-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.budgetEntry {
+    margin-bottom: 2rem;
+    width: 20%;
+}
+
+.budgetEntry p {
+    margin: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.budgetEntry input {
+    height: 2rem;
+    width: 90%;
+    background-color: #dadada;
+    border-radius: 3px;
+    outline: unset;
+    color: #4b0090;
+    font-weight: bold;
+    padding: 5px 15px;
+    border: unset;
+}
+
+.budget-entry-container button {
+    background-color: #4b0090;
+    margin-bottom: 10px;
+    color: white;
+    border: unset;
+    outline: unset;
+    padding: 0.8em 5em;
+    height: fit-content; 
+}
+
+.budget-body-sectioned {
+    width: 90%;
+}
+
+.budget-details-container h1 {
+    color: #4b0090;
+    font-size: 16px;
+}
+
+.budget-details-container table {
+    width: 100%;
+    border: 0.5px solid black;
+    border-radius:3px;
+    max-height: 30vh;
+}
+
+.table-header {
+    text-align: center;
+    background-color: #4b0090;
+    color: white;
+    height: 5vh;
+}
+
+.data-row {
+    text-align: center;
+    height: 1vh;
+    background-color: rgb(219, 219, 219);
+}
+
+.balance-dropdown {
+    height: 2.5em;
+    width: 4rem;
+    border: unset;
+    border-radius: 3px;
+    padding: 4px;
+    color: #4b0090;
+    font-weight: bold;
+}

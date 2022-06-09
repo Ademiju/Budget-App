@@ -1,0 +1,72 @@
+.budgetBalance{
+    background-color: blueviolet;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    width: 97%;
+    padding: 1% 1.5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-between;
+}
+
+.balance{
+    background-color: rgb(116,8,218);
+    color: white;
+    border-radius: 5px;
+    height: 5vh;
+    width: 15%;
+    display:  flex;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.balance-button {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4b0090;
+}
+
+.balance-button input {
+    height: 5vh;
+    width: 60%;
+    border-radius: 4px;
+    border: unset;
+    padding: 0 10px;
+    background-color: #4b0090;
+}
+
+.balance-button input:focus-visible {
+    outline: unset;
+    background-color: white;
+    color: #4b0090;
+}
+
+.balance-button button {
+    outline: unset;
+    border: none;
+    padding: 1.5%;
+    background-color: white;
+    color: #4b0090;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.update-button:hover {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+}
+
+.logOut-button:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
